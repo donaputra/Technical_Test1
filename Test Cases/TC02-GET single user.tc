@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Untuk menampilkan single user dengan menggunakan method GET pada user dengan id 2</description>
+   <name>TC02-GET single user</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>64f4cd99-33e5-4009-bb1e-8253bdd5d62d</testCaseGuid>
+</TestCaseEntity>

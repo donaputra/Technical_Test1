@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Melakukan update user dengan method GET</description>
+   <name>TC03-PUT update</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d721e737-3274-4847-b440-87b46a5f7993</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Technical_Test1_Suite,,Melakukan pengujian secara automation untuk beberapa method,,2023-06-02 15:26:48,2023-06-02 15:27:11,22.852s,FAILED
+,,,,,,,
+Test Cases/TC01-GET list users pada page 1,,Melakukan pengujian API dengan method GET untuk validasi dan menampilkan page 1,,2023-06-02 15:26:48,2023-06-02 15:26:57,8.486s,PASSED
+"sendRequest(findTestObject(""GET list users""))",,Megirim request,,2023-06-02 15:26:49,2023-06-02 15:26:55,5.361s,PASSED
+"response = sendRequestAndVerify(findTestObject(""GET list users""))",,Mengirim request dan verifikasi response,,2023-06-02 15:26:55,2023-06-02 15:26:57,1.993s,PASSED
+"verifyResponseStatusCode(response, response_200)",,Verifikasi response status code 200 OK,,2023-06-02 15:26:57,2023-06-02 15:26:57,0.000s,PASSED
+"verifyElementPropertyValue(response, firstNamePath, name)",,Verifikasi dan validasi value pada JSON file sesuai path locator ,,2023-06-02 15:26:57,2023-06-02 15:26:57,0.144s,PASSED
+,,,,,,,
+Test Cases/TC02-GET single user,,Untuk menampilkan single user dengan menggunakan method GET pada user dengan id 2,,2023-06-02 15:26:57,2023-06-02 15:26:59,2.282s,PASSED
+"sendRequestAndVerify(findTestObject(""GET single user""))",,"Mengirim request
+",,2023-06-02 15:26:58,2023-06-02 15:26:59,0.818s,PASSED
+"response = sendRequest(findTestObject(""GET single user""))",,Mengirim request dan verifikasi output,,2023-06-02 15:26:59,2023-06-02 15:26:59,0.456s,PASSED
+"verifyResponseStatusCode(response, response_200)",,Verifikasi response status code 200 OK,,2023-06-02 15:26:59,2023-06-02 15:26:59,0.000s,PASSED
+"verifyElementPropertyValue(response, dataEmailPath, email)",,Verifikasi dan validasi value yang ada pada JSON file,,2023-06-02 15:26:59,2023-06-02 15:26:59,0.099s,PASSED
+,,,,,,,
+Test Cases/TC03-PUT update,,Melakukan update user dengan method GET,,2023-06-02 15:26:59,2023-06-02 15:27:02,2.912s,PASSED
+"sendRequest(findTestObject(""PUT update""))",,Mengirim request,,2023-06-02 15:27:00,2023-06-02 15:27:01,0.980s,PASSED
+"response = sendRequestAndVerify(findTestObject(""PUT update""))",,Mengirim request dan verifikasi output,,2023-06-02 15:27:01,2023-06-02 15:27:02,1.002s,PASSED
+"verifyResponseStatusCode(response, response_200)",,Verifikasi response status code 200 OK,,2023-06-02 15:27:02,2023-06-02 15:27:02,0.000s,PASSED
+,,,,,,,
+Test Cases/TC04-POST register successful,,Melakukan POST register dengan menggunakan email dari method GET single user,,2023-06-02 15:27:08,2023-06-02 15:27:11,2.092s,FAILED
+"sendRequest(findTestObject(""POST register successful""))",,Mengirim request,,2023-06-02 15:27:08,2023-06-02 15:27:10,1.118s,PASSED
+"response = sendRequestAndVerify(findTestObject(""POST register successful""))",,Mengirim request dan verifikasi output,,2023-06-02 15:27:10,2023-06-02 15:27:11,0.958s,FAILED

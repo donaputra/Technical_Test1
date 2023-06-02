@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Melakukan POST register dengan menggunakan email dari method GET single user</description>
+   <name>TC04-POST register successful</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7ebf7e97-1b75-4a6b-a543-8be5edb80e9e</testCaseGuid>
+</TestCaseEntity>

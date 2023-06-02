@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Base URL yang digunakan untuk pengujian API Technical_Test1</description>
+      <initValue>'https://reqres.in/'</initValue>
+      <name>reqresUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Global Variable untuk Verifikasi output</description>
+      <initValue>'response'</initValue>
+      <name>response</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Response Untuk Verifikasi Status Code 200 </description>
+      <initValue>200</initValue>
+      <name>response_200</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Path untuk Validasi dan Verifikasi JSON</description>
+      <initValue>'data[0].first_name'</initValue>
+      <name>firstNamePath</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Path yang digunakan untuk melakukan Verifikasi dan Validasi respon body JSON</description>
+      <initValue>'data.email'</initValue>
+      <name>dataEmailPath</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Untuk Validasi dan Verifikasi first_name pada file JSON</description>
+      <initValue>'George'</initValue>
+      <name>name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Email yang digunakan untuk verifikasi dan validasi yang terkandung dalan JSON file</description>
+      <initValue>'janet.weaver@reqres.in'</initValue>
+      <name>email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Response code untuk validasi bahwa ketika registrasi dengan email yang sama maka akan terjadi conflict</description>
+      <initValue>409</initValue>
+      <name>response_409</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
